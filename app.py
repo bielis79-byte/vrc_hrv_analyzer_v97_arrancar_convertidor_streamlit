@@ -4646,7 +4646,7 @@ with tab8:
                 localhost_capture_script.write_text("# Script de captura localhost no disponible en esta versión.\n", encoding="utf-8")
 
             arrancador_bat = tmpdir / "Arrancar_Convertidor.bat"
-            arrancador_bat.write_text(ARRANCAR_CONVERTIDOR_BAT, encoding="utf-8")
+            # arrancador_bat.write_text(ARRANCAR_CONVERTIDOR_BAT, encoding="utf-8")
 
             st.caption(
                 f"Se han preparado {len(figures_to_export)} gráficos. "
